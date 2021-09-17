@@ -1,0 +1,38 @@
+.coin-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  padding: 1rem;
+}
+.coin-row {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.coin {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.coin-data {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Title {
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+img {
+  width: 3rem;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

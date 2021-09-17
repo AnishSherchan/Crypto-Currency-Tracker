@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+* {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Prata", serif;
+  box-sizing: border-box;
+}
+.coin-search,
+.Header,
+h1,
+form,
+input {
+  background-color: rgb(44, 44, 44);
+}
+.coin-search {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+h1,
+input {
+  margin-left: 1rem;
+}
+.Header,
+form,
+.coin-text {
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 40vh;
+  height: 8vh;
+  border-radius: 0.2rem;
+  border-color: mintcream;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgb(34, 33, 33);
+}
